@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'master',
   name: 'cdk-secure-parameter-store',
   repositoryUrl: 'https://github.com/HarshRohila/cdk-secure-parameter-store.git',
-  deps: ['aws-sdk'],
+  bundledDeps: ['aws-sdk'],
   // cdkTestDependencies: undefined,  /* AWS CDK modules required for testing. */
   peerDeps: ['constructs', 'aws-cdk-lib'],
   // description: undefined,          /* The description is just a string that helps people understand the purpose of the package. */
