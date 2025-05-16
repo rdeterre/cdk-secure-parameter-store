@@ -1,5 +1,5 @@
 {
-  "name": "cdk-secure-parameter-store",
+  "name": "cdk-secure-parameter-store-cdk2",
   "repository": {
     "type": "git",
     "url": "https://github.com/HarshRohila/cdk-secure-parameter-store.git"
@@ -78,7 +78,7 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "jest": {
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.ts?(x)",
